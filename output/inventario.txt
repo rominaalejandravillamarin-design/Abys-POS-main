@@ -188,7 +188,7 @@
 188;Aspiradora (unidad);60.00;7;3
 189;Plancha (unidad);15.00;13;2
 190;Ventilador (unidad);25.00;10;3
-191;Aire Acondicionado (unidad);200.00;4;3
+191;Aire Acondicionado (unidad);200.00;3;3
 192;Calefactor (unidad);30.00;12;3
 193;Lampara (unidad);20.00;15;3
 194;Silla (unidad);50.00;8;3

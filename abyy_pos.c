@@ -101,6 +101,19 @@ int cargarAfiliados(struct Afiliado Afiliado[]) {
     return contador;
 }
 
+// Funcion para guardar los afiliados en un archivo
+void guardarAfiliados(struct Afiliado Afiliado[], int totalAfiliados) {
+    FILE *f = fopen("afiliado.txt", "w");
+    if (f == NULL) {
+        printf("Error: No se pudo guardar los afiliados.\n");
+        return;
+    }
+    for (int i = 0; i < totalAfiliados; i++) {
+        fprintf(f, "%d;%s;%d\n", Afiliado[i].id, Afiliado[i].nombre, Afiliado[i].DNI);
+    }
+    fclose(f);
+}
+
 void ordenarAfiliados(struct Afiliado Afiliado[], int total) {
     struct Afiliado temporal;
     for (int i = 0; i < total - 1; i++) {
@@ -486,6 +499,7 @@ int main(void) {
                     } while (seguirVendiendo == 's' || seguirVendiendo == 'S');
 
                     if (totalTicket > 0) {
+
                         // Verificar si el cliente es afiliado
                         ordenarAfiliados(Afiliado, totalAfiliados);
                         printf("Digite el DNI del cliente: ");
@@ -493,15 +507,30 @@ int main(void) {
                         int idxAfiliado = buscarAfiliado(Afiliado, totalAfiliados, DNICliente);
                         if (idxAfiliado != -1) {
                             printf("Cliente afiliado encontrado: %s\n", Afiliado[idxAfiliado].nombre);
-                            
-                            generarArchivoTicket(ticketProdIndex, ticketCantidad, itemsTicket, inventario, tasasIVA, totalTicket, subtotalTicket, ivaTicket);
-                        
-                            //Aqui se registra la venta en el cierre de caja
-                            registrarVentaEnCierre(ticketProdIndex, ticketCantidad, itemsTicket, inventario);  
-                            printf("Venta finalizada y registrada en log. Total: $%.2f\n", totalTicket);
                         } else {
+                            char opcionAfiliar;
+                            struct Afiliado nuevoAfiliado;
                             printf("Cliente no afiliado.\n");
+                            printf("¿Desea afiliarce? (s/n): ");
+                            scanf(" %c", &opcionAfiliar);
+                            if (opcionAfiliar == 's' || opcionAfiliar == 'S') {
+                                printf("Ingrese el nombre del nuevo afiliado: ");
+                                scanf(" %[^\n]", nuevoAfiliado.nombre);
+                                printf("Ingrese el DNI del nuevo afiliado: ");
+                                scanf("%d", &nuevoAfiliado.DNI);
+                                nuevoAfiliado.id = totalAfiliados + 1;
+                                Afiliado[totalAfiliados] = nuevoAfiliado;
+                                totalAfiliados++;
+                                guardarAfiliados(Afiliado, totalAfiliados);
+                                printf("Cliente afiliado correctamente.\n");
+                            }
                         }
+
+                        generarArchivoTicket(ticketProdIndex, ticketCantidad, itemsTicket, inventario, tasasIVA, totalTicket, subtotalTicket, ivaTicket);
+                        
+                        //Aqui se registra la venta en el cierre de caja
+                        registrarVentaEnCierre(ticketProdIndex, ticketCantidad, itemsTicket, inventario);  
+                        printf("Venta finalizada y registrada en log. Total: $%.2f\n", totalTicket);
                     }
                 }
                 break;
