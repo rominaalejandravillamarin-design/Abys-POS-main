@@ -505,6 +505,7 @@ int main(void) {
                         printf("Digite el DNI del cliente: ");
                         scanf("%d", &DNICliente);
                         int idxAfiliado = buscarAfiliado(Afiliado, totalAfiliados, DNICliente);
+                        
                         if (idxAfiliado != -1) {
                             printf("Cliente afiliado encontrado: %s\n", Afiliado[idxAfiliado].nombre);
                         } else {
@@ -513,6 +514,7 @@ int main(void) {
                             printf("Cliente no afiliado.\n");
                             printf("¿Desea afiliarce? (s/n): ");
                             scanf(" %c", &opcionAfiliar);
+                            
                             if (opcionAfiliar == 's' || opcionAfiliar == 'S') {
                                 printf("Ingrese el nombre del nuevo afiliado: ");
                                 scanf(" %[^\n]", nuevoAfiliado.nombre);
