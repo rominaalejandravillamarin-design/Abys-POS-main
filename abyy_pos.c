@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <windows.h> // Necesaria para SetConsoleOutputCP en Windows
 #include <time.h> // Necesaria para fecha y hora
 
 // Definimos el tamaño máximo del catálogo de productos
 #define PRO_MAX 500
 #define AFI_MAX 150
 #define ARCHIVO_INV "inventario.txt"
+#define ARCHIVO_VENTAS "registroDeVentas.txt"
 
 // Estructura para los productos del inventario
 struct Producto {
@@ -111,6 +114,36 @@ void guardarAfiliados(struct Afiliado Afiliado[], int totalAfiliados) {
     for (int i = 0; i < totalAfiliados; i++) {
         fprintf(f, "%d;%s;%d\n", Afiliado[i].id, Afiliado[i].nombre, Afiliado[i].DNI);
     }
+    fclose(f);
+}
+
+void registrarVentaEnRegistro(int indices[], int cantidades[], int itemsTicket, struct Producto inventario[], float total, const char *nombreCliente, int DNICliente) {
+    FILE *f = fopen(ARCHIVO_VENTAS, "a");
+    if (f == NULL) {
+        printf("Error: No se pudo abrir %s\n", ARCHIVO_VENTAS);
+        return;
+    }
+
+    time_t t = time(NULL);
+    struct tm tm = *localtime(&t);
+
+    fprintf(f, "%02d/%02d/%d;%02d:%02d;%s;%d;",
+            tm.tm_mday, tm.tm_mon + 1, tm.tm_year + 1900,
+            tm.tm_hour, tm.tm_min,
+            nombreCliente,
+            DNICliente);
+
+    for (int j = 0; j < itemsTicket; j++) {
+        int idx = indices[j];
+        int cant = cantidades[j];
+        float precioTotalItem = inventario[idx].precio * cant;
+        fprintf(f, "%s x%d:$%.2f", inventario[idx].nombre, cant, precioTotalItem);
+        if (j < itemsTicket - 1) {
+            fprintf(f, ", ");
+        }
+    }
+
+    fprintf(f, ";%.2f\n", total);
     fclose(f);
 }
 
@@ -271,6 +304,7 @@ void generarArchivoTicket(int indices[], int cantidades[], int itemsTicket, stru
 
 // Función principal
 int main(void) {
+    SetConsoleOutputCP(65001); // Configurar la consola para UTF-8 (Windows)
     // Variables generales
     int opcion = 0;
     int subOpcion = 0;
@@ -278,6 +312,7 @@ int main(void) {
     int encontrado = 0;
     int continuar = 0;
     int DNICliente = 0;
+    char nombreCliente[50] = "Cliente no afiliado";
     
     // Variables de caja
     int cajaAbierta = 0;
@@ -507,7 +542,8 @@ int main(void) {
                         int idxAfiliado = buscarAfiliado(Afiliado, totalAfiliados, DNICliente);
                         
                         if (idxAfiliado != -1) {
-                            printf("Cliente afiliado encontrado: %s\n", Afiliado[idxAfiliado].nombre);
+                            strcpy(nombreCliente, Afiliado[idxAfiliado].nombre);
+                            printf("Cliente afiliado encontrado: %s\n", nombreCliente);
                         } else {
                             char opcionAfiliar;
                             struct Afiliado nuevoAfiliado;
@@ -529,6 +565,9 @@ int main(void) {
                         }
 
                         generarArchivoTicket(ticketProdIndex, ticketCantidad, itemsTicket, inventario, tasasIVA, totalTicket, subtotalTicket, ivaTicket);
+                        
+                        // Registrar la venta final en registroDeVentas.txt
+                        registrarVentaEnRegistro(ticketProdIndex, ticketCantidad, itemsTicket, inventario, totalTicket, nombreCliente, DNICliente);
                         
                         //Aqui se registra la venta en el cierre de caja
                         registrarVentaEnCierre(ticketProdIndex, ticketCantidad, itemsTicket, inventario);  

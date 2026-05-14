@@ -3,3 +3,15 @@
 [VENTA 10:15] 2x Plancha (unidad) (IVA 2) | 
 [VENTA 10:43] 1x Sofa (unidad) (IVA 3) | 
 [VENTA 11:35] 1x Aire Acondicionado (unidad) (IVA 3) | 
+[VENTA 11:58] 1x Licuadora (unidad) (IVA 3) | 1x Bicicleta (unidad) (IVA 3) | 
+[VENTA 12:14] 1x Calefactor (unidad) (IVA 3) | 
+[VENTA 12:15] 1x Refrigerador (unidad) (IVA 3) | 
+[VENTA 12:15] 2x Sabanas (set) (IVA 3) | 
+[VENTA 12:16] 2x Sabanas (set) (IVA 3) | 1x Almohada (unidad) (IVA 2) | 
+[VENTA 12:19] 3x Diesel (litro) (IVA 3) | 
+[VENTA 12:19] 5x Tenedor (set) (IVA 1) | 
+[VENTA 12:30] 1x Sabanas (set) (IVA 3) | 
+[VENTA 12:30] 1x Sabanas (set) (IVA 3) | 1x Sabanas (set) (IVA 3) | 
+[VENTA 12:30] 1x Sabanas (set) (IVA 3) | 
+[VENTA 12:32] 1x Mesa (unidad) (IVA 3) | 
+[VENTA 12:34] 2x Almohada (unidad) (IVA 2) | 

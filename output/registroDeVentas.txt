@@ -1,0 +1,7 @@
+14/05/2026;12:14;Romina Villamarin;1724789332;Calefactor (unidad) x1:$30.00;34.50
+14/05/2026;12:15;Romina Villamarin;93;Refrigerador (unidad) x1:$500.00;575.00
+14/05/2026;12:15;Romina Villamarin;1234567;Sabanas (set) x2:$50.00;57.50
+14/05/2026;12:16;Matthew Llerena;1750268782;Sabanas (set) x2:$50.00, Almohada (unidad) x1:$10.00;68.70
+
+14/05/2026;12:32;Cliente no afiliado;12345;Mesa (unidad) x1:$100.00;115.00
+14/05/2026;12:34;Cliente no afiliado;1234556;Almohada (unidad) x2:$20.00;22.40

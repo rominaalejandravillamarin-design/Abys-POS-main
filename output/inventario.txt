@@ -118,8 +118,8 @@
 118;Anticongelante (botella);6.00;15;2
 119;Lubricante (botella);5.00;18;2
 120;Gasolina (litro);1.00;100;3
-121;Diesel (litro);0.90;100;3
-122;Bicicleta (unidad);150.00;5;3
+121;Diesel (litro);0.90;97;3
+122;Bicicleta (unidad);150.00;4;3
 123;Casco para Bicicleta (unidad);25.00;10;3
 124;Candado para Bicicleta (unidad);10.00;15;2
 125;Luz para Bicicleta (unidad);8.00;12;2
@@ -170,17 +170,17 @@
 170;Sarten (unidad);15.00;12;3
 171;Olla (unidad);20.00;10;3
 172;Cuchillo (set);10.00;15;3
-173;Tenedor (set);5.00;25;1
+173;Tenedor (set);5.00;20;1
 174;Cuchara (set);4.00;30;1
 175;Plato (set);8.00;20;2
 176;Taza (set);6.00;25;2
 177;Vaso (set);4.00;30;1
 178;Tabla de Cortar (unidad);8.00;15;2
 179;Batidora (unidad);40.00;8;3
-180;Licuadora (unidad);35.00;9;3
+180;Licuadora (unidad);35.00;8;3
 181;Tostadora (unidad);20.00;12;3
 182;Microondas (unidad);80.00;5;3
-183;Refrigerador (unidad);500.00;2;3
+183;Refrigerador (unidad);500.00;1;3
 184;Horno (unidad);300.00;2;3
 185;Lavavajillas (unidad);400.00;0;3
 186;Lavadora (unidad);350.00;3;3
@@ -189,12 +189,12 @@
 189;Plancha (unidad);15.00;13;2
 190;Ventilador (unidad);25.00;10;3
 191;Aire Acondicionado (unidad);200.00;3;3
-192;Calefactor (unidad);30.00;12;3
+192;Calefactor (unidad);30.00;11;3
 193;Lampara (unidad);20.00;15;3
 194;Silla (unidad);50.00;8;3
-195;Mesa (unidad);100.00;5;3
+195;Mesa (unidad);100.00;4;3
 196;Sofa (unidad);300.00;2;3
 197;Cama (unidad);200.00;3;3
 198;Colchon (unidad);150.00;5;3
-199;Almohada (unidad);10.00;20;2
-200;Sabanas (set);25.00;8;3
+199;Almohada (unidad);10.00;17;2
+200;Sabanas (set);25.00;0;3
