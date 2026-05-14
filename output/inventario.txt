@@ -1,0 +1,200 @@
+1;Arroz (Funda 1kg);1.00;36;1
+2;Azucar (Funda 1kg);1.25;60;1
+3;Leche (Funda 1L);1.00;25;1
+4;Galletas Saladas;0.80;70;2
+5;Aceite (1L);3.50;14;2
+6;Fideos (Paq 400g);0.60;40;1
+7;Atun en Lata (170g);1.35;35;2
+8;Huevos (Cubeta 30u);3.80;15;1
+9;Refresco (3L);2.50;30;3
+10;Papel Higienico (4u);2.25;25;2
+11;Detergente;2.10;45;3
+12;Cereal (300g);2.50;40;3
+13;Servilletas (paq);1.50;55;1
+14;Velas (paq);2.00;40;1
+15;Baterias (paq);4.00;20;3
+16;Focos (paq);3.00;25;2
+17;Cables (paq);5.00;15;2
+18;Herramientas (set);10.00;10;3
+19;Juguetes (unidad);5.00;20;3
+20;Libros (unidad);8.00;15;2
+21;Revistas (unidad);3.00;30;2
+22;CD (unidad);2.00;25;2
+23;DVD (unidad);3.00;20;3
+24;USB (unidad);5.00;15;3
+25;Tarjeta de Memoria (unidad);10.00;10;3
+26;Audifonos (unidad);15.00;12;3
+27;Parlantes (unidad);20.00;8;3
+28;Teclado (unidad);25.00;10;3
+29;Mouse (unidad);10.00;15;3
+30;Monitor (unidad);100.00;5;3
+31;Impresora (unidad);80.00;5;3
+32;Laptop (unidad);500.00;2;3
+33;Tablet (unidad);200.00;3;3
+34;Celular (unidad);300.00;4;3
+35;Reloj (unidad);50.00;10;3
+36;Gafas (unidad);20.00;15;2
+37;Sombrero (unidad);15.00;20;2
+38;Zapatos (par);40.00;10;3
+39;Camisa (unidad);25.00;15;2
+40;Pantalon (unidad);35.00;12;3
+41;Chaqueta (unidad);50.00;8;3
+42;Calcetines (par);5.00;30;2
+43;Guantes (par);8.00;20;2
+44;Cinturon (unidad);12.00;15;2
+45;Bufanda (unidad);10.00;18;2
+46;Bolso (unidad);30.00;10;3
+47;Mochila (unidad);25.00;12;3
+48;Cartera (unidad);20.00;15;3
+49;Anillo (unidad);15.00;20;3
+50;Collar (unidad);25.00;10;3
+51;Pulsera (unidad);12.00;18;3
+52;Pendientes (par);10.00;25;3
+53;Perfume Mujer (botella);18.00;8;3
+54;Perfume Hombre (botella);16.00;9;3
+55;Crema para Manos (tubo);4.00;30;3
+56;Crema para Cara (tubo);6.00;25;3
+57;Maquillaje Ojos (paq);8.00;15;3
+58;Maquillaje Labios (paq);5.00;20;3
+59;Base de Maquillaje (botella);10.00;12;3
+60;Polvos (paq);7.00;18;3
+61;Rubor (paq);6.00;20;3
+62;Sombra de Ojos (paq);9.00;14;3
+63;Mascara de Pestañas (tubo);8.00;16;3
+64;Limpiador Facial (botella);5.00;25;2
+65;Toner (botella);4.00;28;2
+66;Serum (botella);12.00;10;3
+67;Contorno de Ojos (tubo);10.00;15;3
+68;Protector Solar (botella);8.00;20;3
+69;Exfoliante (tubo);6.00;22;2
+70;Mascarilla Facial (paq);3.00;35;2
+71;Champu para Bebe (botella);4.50;25;3
+72;Acondicionador para Bebe (botella);4.50;25;3
+73;Jabon para Bebe (barra);2.00;40;2
+74;Talco para Bebe (paq);3.00;30;2
+75;Pañales para Bebe (paq);9.00;18;3
+76;Crema para Bebe (tubo);5.00;25;3
+77;Shampoo para Mascotas (botella);4.00;20;3
+78;Comida para Perros (paq);8.00;15;2
+79;Comida para Gatos (paq);7.00;16;2
+80;Arena para Gatos (paq);3.00;25;1
+81;Juguetes para Mascotas (unidad);2.00;30;2
+82;Collar para Mascotas (unidad);3.00;25;2
+83;Planta Decorativa (unidad);10.00;10;2
+84;Maceta (unidad);5.00;20;1
+85;Tierra para Plantas (bolsa);2.00;30;1
+86;Fertilizante (bolsa);4.00;15;2
+87;Herramientas de Jardin (set);15.00;8;3
+88;Regadera (unidad);3.00;25;1
+89;Manguera (unidad);8.00;12;2
+90;Semillas de Flores (paq);1.50;40;1
+91;Semillas de Verduras (paq);2.00;35;1
+92;Insecticida (botella);3.00;20;3
+93;Herbicida (botella);4.00;18;3
+94;Pesticida (botella);5.00;15;3
+95;Candado (unidad);6.00;20;2
+96;Llave (set);10.00;10;3
+97;Tornillos (paq);2.00;40;1
+98;Clavos (paq);1.50;45;1
+99;Cinta Adhesiva (rollo);2.50;30;2
+100;Pegamento (tubo);3.00;25;2
+101;Tijeras (unidad);4.00;20;2
+102;Destornillador (unidad);5.00;15;3
+103;Martillo (unidad);7.00;12;2
+104;Taladro (unidad);50.00;5;3
+105;Sierra (unidad);12.00;10;3
+106;Lima (unidad);3.00;25;1
+107;Pinzas (unidad);4.00;20;2
+108;Cortador de Cable (unidad);6.00;15;3
+109;Multimetro (unidad);20.00;8;3
+110;Bateria para Auto (unidad);80.00;4;3
+111;Aceite para Motor (botella);8.00;12;3
+112;Filtro de Aire (unidad);15.00;10;3
+113;Filtro de Aceite (unidad);10.00;12;3
+114;Bujias (set);12.00;10;3
+115;Llantas (unidad);100.00;3;3
+116;Neumaticos (set);400.00;2;3
+117;Limpiaparabrisas (par);20.00;8;3
+118;Anticongelante (botella);6.00;15;2
+119;Lubricante (botella);5.00;18;2
+120;Gasolina (litro);1.00;100;3
+121;Diesel (litro);0.90;100;3
+122;Bicicleta (unidad);150.00;5;3
+123;Casco para Bicicleta (unidad);25.00;10;3
+124;Candado para Bicicleta (unidad);10.00;15;2
+125;Luz para Bicicleta (unidad);8.00;12;2
+126;Bomba para Bicicleta (unidad);5.00;20;1
+127;Repuestos para Bicicleta (paq);15.00;8;3
+128;Patines (par);30.00;8;3
+129;Patineta (unidad);40.00;6;3
+130;Balon de Futbol (unidad);15.00;12;2
+131;Balon de Basquetbol (unidad);20.00;10;3
+132;Raqueta de Tenis (unidad);50.00;5;3
+133;Pelota de Tenis (paq);5.00;20;2
+134;Guantes de Beisbol (par);25.00;8;3
+135;Bate de Beisbol (unidad);30.00;7;3
+136;Red de Voleibol (unidad);40.00;6;3
+137;Pesas (set);100.00;4;3
+138;Banda Elastica (set);15.00;10;2
+139;Mancuernas (par);50.00;5;3
+140;Bicicleta Estatica (unidad);200.00;3;3
+141;Cinta de Correr (unidad);300.00;2;3
+142;Banco de Pesas (unidad);150.00;4;3
+143;Colchoneta (unidad);20.00;10;2
+144;Botella de Agua (unidad);2.00;50;1
+145;Toalla Deportiva (unidad);8.00;15;2
+146;Reloj Deportivo (unidad);40.00;8;3
+147;Gafas de Sol (unidad);15.00;20;2
+148;Sombrero Deportivo (unidad);12.00;18;2
+149;Shorts (unidad);15.00;20;2
+150;Camiseta Deportiva (unidad);20.00;15;3
+151;Zapatillas Deportivas (par);60.00;10;3
+152;Medias Deportivas (par);5.00;30;2
+153;Guantes Deportivos (par);10.00;15;2
+154;Cinturon Deportivo (unidad);8.00;20;2
+155;Mochila Deportiva (unidad);25.00;12;3
+156;Balon de Playa (unidad);8.00;15;2
+157;Tabla de Surf (unidad);200.00;3;3
+158;Kayak (unidad);300.00;2;3
+159;Paddle Board (unidad);250.00;3;3
+160;Equipo de Buceo (set);150.00;4;3
+161;Gafas de Natacion (unidad);10.00;20;2
+162;Aletas (par);15.00;12;3
+163;Traje de Bano (unidad);25.00;15;3
+164;Tobogan Acuatico (unidad);30.00;8;3
+165;Pelota Acuatica (unidad);5.00;25;1
+166;Juguete Acuatico (unidad);3.00;30;2
+167;Libro de Cocina (unidad);12.00;15;2
+168;Recetario (unidad);8.00;20;2
+169;Utensilios de Cocina (set);25.00;10;3
+170;Sarten (unidad);15.00;12;3
+171;Olla (unidad);20.00;10;3
+172;Cuchillo (set);10.00;15;3
+173;Tenedor (set);5.00;25;1
+174;Cuchara (set);4.00;30;1
+175;Plato (set);8.00;20;2
+176;Taza (set);6.00;25;2
+177;Vaso (set);4.00;30;1
+178;Tabla de Cortar (unidad);8.00;15;2
+179;Batidora (unidad);40.00;8;3
+180;Licuadora (unidad);35.00;9;3
+181;Tostadora (unidad);20.00;12;3
+182;Microondas (unidad);80.00;5;3
+183;Refrigerador (unidad);500.00;2;3
+184;Horno (unidad);300.00;2;3
+185;Lavavajillas (unidad);400.00;0;3
+186;Lavadora (unidad);350.00;3;3
+187;Secadora (unidad);300.00;3;3
+188;Aspiradora (unidad);60.00;7;3
+189;Plancha (unidad);15.00;13;2
+190;Ventilador (unidad);25.00;10;3
+191;Aire Acondicionado (unidad);200.00;4;3
+192;Calefactor (unidad);30.00;12;3
+193;Lampara (unidad);20.00;15;3
+194;Silla (unidad);50.00;8;3
+195;Mesa (unidad);100.00;5;3
+196;Sofa (unidad);300.00;2;3
+197;Cama (unidad);200.00;3;3
+198;Colchon (unidad);150.00;5;3
+199;Almohada (unidad);10.00;20;2
+200;Sabanas (set);25.00;8;3
