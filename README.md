@@ -1,6 +1,6 @@
 <div align="center">
 
-#  ☽ ABY'S POS ☾
+#  CajApp 🛒
 
 ### Point of Sale and Inventory System
 
