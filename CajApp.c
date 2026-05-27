@@ -264,7 +264,7 @@ void generarCierreCaja(float totalCaja, float ventasPorIVA[], float tasasIVA[]) 
 
 //Funcion para generar el archivo del ticket
 void generarArchivoTicket(int indices[], int cantidades[], int itemsTicket, struct Producto inventario[], float tasasIVA[], float total, float subtotal, float iva) {
-    FILE *f = fopen("ticket_abyys_pos.txt", "w");
+    FILE *f = fopen("ticket_CajApp.txt", "w");
     if (f == NULL) {
         printf("Error al crear el archivo del ticket.\n");
         return;
@@ -274,7 +274,7 @@ void generarArchivoTicket(int indices[], int cantidades[], int itemsTicket, stru
     struct tm tm = *localtime(&t);
 
     fprintf(f, "_________________________________________\n");
-    fprintf(f, "              ABY'S POS                \n");
+    fprintf(f, "                 CajApp               \n");
     fprintf(f, "_________________________________________\n");
     fprintf(f, "FECHA: %02d/%02d/%d  HORA: %02d:%02d\n", tm.tm_mday, tm.tm_mon + 1, tm.tm_year + 1900, tm.tm_hour, tm.tm_min);
     fprintf(f, "_________________________________________\n");
@@ -299,7 +299,7 @@ void generarArchivoTicket(int indices[], int cantidades[], int itemsTicket, stru
     fprintf(f, "         GRACIAS POR SU COMPRA 🛒        \n");
 
     fclose(f);
-    printf("\n[i] Ticket generado con FECHA y HORA: 'ticket_abyys_pos.txt'\n");
+    printf("\n[i] Ticket generado con FECHA y HORA: 'ticket_CajApp.txt'\n");
 }
 
 // Función principal
@@ -355,7 +355,7 @@ int main(void) {
         if(opcion != 0) limpiarPantalla(); 
         
         printf("__________________________________________________________\n");
-        printf("                         ABY'S POS                        \n");
+        printf("                         CajApp                        \n");
         printf("__________________________________________________________\n");
         printf("   Productos cargados: %d\n", totalProductos);
         if (cajaAbierta == 1) {
