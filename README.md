@@ -7,6 +7,7 @@
 ![Language](https://img.shields.io/badge/LANGUAGE-C-blue?style=for-the-badge&logo=c)
 ![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS-0078D6?style=for-the-badge&logo=windows)
 ![Status](https://img.shields.io/badge/STATUS-BETA-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 <br>
 
@@ -46,7 +47,7 @@ To meet academic standards and optimize performance, the system uses:
 
 * `main.c`: Main source code of the system.
 * `inventario.txt`: Product database (Format: `ID;Name;Price;Stock;VAT`).
-* `ticket_abyys_pos.txt`: Last generated sales ticket.
+* `ticket_CajApp.txt`: Last generated sales ticket.
 * `cierre_de_caja.txt`: Accumulated history of shift closures.
 
 ---
@@ -56,7 +57,7 @@ To meet academic standards and optimize performance, the system uses:
 | Field | Information |
 | :--- | :--- |
 | **Institution** | Escuela Politécnica Nacional (EPN) |
-| **Subject** | Programming II |
+| **Subject** | Programming I |
 | **Degree** | Data Science and AI Engineering |
 | **Developers** | **Matthew Llerena and Romina Villamarin** |
 
