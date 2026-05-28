@@ -56,12 +56,10 @@ To meet academic standards and optimize performance, the system uses:
 | Field | Information |
 | :--- | :--- |
 | **Institution** | Escuela Politécnica Nacional (EPN) |
-| **Subject** | Programming I |
+| **Subject** | Programming II |
 | **Degree** | Data Science and AI Engineering |
-| **Developers** | **Briana Dueñas and Melanie Sampedro** |
+| **Developers** | **Matthew Llerena and Romina Villamarin** |
 
 ---
 
-<div align="center">
-    Developed for the final semester project - 2025/2026
-</div>
+
