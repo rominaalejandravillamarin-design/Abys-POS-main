@@ -24,7 +24,7 @@
 * ✮ **Administration:** Modules to add new products, edit prices, and manually adjust stock.
 
 ### 💰 Sales and Register System
-* ✮ **Automatic Billing:** Detailed ticket generation in `ticket_abyys_pos.txt` with tax calculation (VAT).
+* ✮ **Automatic Billing:** Detailed ticket generation in `ticket_CajApp.txt` with tax calculation (VAT).
 * ✮ **Register Closure:** Detailed financial report (`cierre_de_caja.txt`) broken down by tax types and net total.
 * ✮ **Visual Interface:** Clear menus and screen clearing for a better user experience.
 
